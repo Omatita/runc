@@ -1,0 +1,9 @@
+[package]
+name = "runc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gtk4 = "0.11.1"
+tokio ={ version = "1.50.0", features = ["full"] } 
+zbus = "5.14.0"
